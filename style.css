@@ -1,0 +1,75 @@
+[class*="col-"] {
+
+}
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #2c3e50;
+
+}
+h3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  color: white;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding-top: 60px;
+}
+
+ul li a {
+  color: white;
+  padding-left: 30px;
+}
+
+/* Qui inizia la prima sezione */
+
+.center {
+  text-align: center;
+  background-color: #1abc9c;
+  color: white;
+}
+
+#bambino {
+  max-height: 300px;
+  width: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fas {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Qui inizia la seconda sezione */
+
+.circus {
+  max-height: 250px;
+  width: auto;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.riga, .fas{
+   display: inline-block;
+}
+
+.riga {
+  border-top: solid 2px;
+  width: 100px;
+  position: relative;
+  top: -10px;
+}
+
+#bianca {
+  text-align: center;
+}
